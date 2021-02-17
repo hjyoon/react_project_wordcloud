@@ -39,7 +39,7 @@ class Words extends React.Component {
                 throw new Error(res.statusText);
             }
             return res.json();
-        }).then(words => this.setState({words: words}));
+        }).then(words => this.setState({words: (words == null) ? {} : words}));
     }
     _post(word) {
         return fetch(`${databaseURL}/words.json`, {

@@ -13,7 +13,7 @@ import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
 const databaseURL = "https://word-cloud-1415e-default-rtdb.firebaseio.com/";
-const apiURL = "http://localhost:5002"
+const apiURL = "https://pywordcloudhj.tk/"
 
 const styles = theme => ({
     fab: {
